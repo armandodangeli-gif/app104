@@ -1,30 +1,63 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Permessi 104</title>
-
-<link rel="manifest" href="manifest.json">
-
-<style>
-html, body {
-  margin:0;
-  padding:0;
-  height:100%;
-  overflow:hidden;
-}
-iframe {
-  border:none;
-  width:100%;
-  height:100%;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Permessi 104</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#000000">
+  <style>
+    body{
+      margin:0;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:linear-gradient(135deg,#1a0030 0%, #3b005c 45%, #000000 100%);
+      font-family:Arial, Helvetica, sans-serif;
+      color:white;
+    }
+    .box{
+      text-align:center;
+      padding:32px 24px;
+      max-width:420px;
+    }
+    img{
+      width:140px;
+      height:140px;
+      border-radius:28px;
+      box-shadow:0 12px 30px rgba(0,0,0,.35);
+      margin-bottom:20px;
+    }
+    h1{
+      margin:0 0 12px 0;
+      font-size:28px;
+    }
+    p{
+      margin:0 0 24px 0;
+      line-height:1.5;
+      color:#e8dff0;
+    }
+    a.button{
+      display:inline-block;
+      background:#e0002a;
+      color:white;
+      text-decoration:none;
+      padding:14px 24px;
+      border-radius:14px;
+      font-weight:bold;
+      box-shadow:0 8px 20px rgba(0,0,0,.25);
+    }
+  </style>
 </head>
-
 <body>
-
-<iframe src="https://www.appsheet.com/start/847ff200-591d-484d-a614-a2d5d81525f3"></iframe>
-
+  <div class="box">
+    <img src="icon-512.png" alt="Logo Permessi 104">
+    <h1>Permessi 104</h1>
+    <p>Tocca il pulsante qui sotto per aprire l’app.</p>
+    <a class="button" href="https://www.appsheet.com/start/847ff200-591d-484d-a614-a2d5d81525f3" target="_blank" rel="noopener noreferrer">
+      Apri l’app
+    </a>
+  </div>
 </body>
 </html>
